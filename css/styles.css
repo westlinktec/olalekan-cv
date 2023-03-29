@@ -6,9 +6,9 @@ body {
      }
 h1   {
      color: #66BFBF;
-     font-size: 300%;
+     font-size: 200%;
      padding-top: 50px;
-     font-family: 'Sacramento', cursive
+     font-family: 'Sacramento' cursive
      }
 h2 {
      color: #66BFBF;
@@ -23,7 +23,7 @@ h3 {
      }
      
 .intro {
-       width: 30%;
+       width: 60%;
        margin: auto;
           }
 .top-container {
@@ -47,11 +47,12 @@ margin-top: 60px;
 }
 .bottom-cloud {
     position: absolute;
-    left: 250px;
+    left: 60px;
     }
 .top-cloud {
      position: relative;
-     left: 200px;
+     left: 300px;
+     top: 24px;
     }
 .footer-link1 {
      color: #11999E;
@@ -66,6 +67,7 @@ margin-top: 60px;
 .footer-link3 {
      color: #11999E;
      text-decoration: none;
+     margin-right: 100px;
     }
 p {
      line-height: 2;
@@ -75,7 +77,7 @@ p {
 .skill-row {
      display: inline-block;
      margin-top: 50px;
-     width: 50%;
+     width: 70%;
      text-align: left;
      line-height: 2;
       }
@@ -99,6 +101,7 @@ padding: 10px;
 .links {
      padding-top: 30px;
      color: #11999E;
+
      }
 hr {
     border-style: none;
@@ -111,12 +114,14 @@ hr {
     
      }
 .message {
-width: 30%;
+width: 50%;
 margin: 20px auto 30px;
           }
 .btn {
      width: 20%;
      margin: auto;
+     padding-top: 0px;
+     padding-bottom: 0px;
      background: #11CDD4;
      background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
      background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
@@ -154,5 +159,7 @@ margin: 20px auto 30px;
 .w3c {
      float: left;
     width: 100px;
-    
+    }
+.ifyou {
+ font-weight: lighter;
     }
